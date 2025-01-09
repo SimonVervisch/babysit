@@ -16,13 +16,6 @@
         {{ head::general_meta() }}
     {%- endblock general_meta -%}
 
-    {%- block og_preview -%}
-        {{ social::og_preview() }}
-    {%- endblock og_preview -%}
-
-    {%- block twitter_preview -%}
-        {{ social::twitter_preview() }}
-    {%- endblock twitter_preview -%}
 
     {%- block fonts -%}
         {{ head::fonts() }}
@@ -60,7 +53,6 @@
           {%- block lists -%}
           <div class="split-lists">
           {{ lists::connect() }}
-          {{ lists::social() }}
           </div><!--./lists-->
           {%- endblock lists -%}
 

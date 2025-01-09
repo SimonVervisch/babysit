@@ -5,8 +5,8 @@ title = "Zplit"
 description = "A single page theme for a professional online presense."
 
 # Whether to generate a RSS feed automatically
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -27,30 +27,24 @@ highlight_code = false
 
 [extra]
 
-author = "Jenny Jones"
+author = "Lily-Yin Van Kersschaever"
 
 [extra.content]
 
-intro_tagline = "Designer. Stylist. Nomad."
+intro_tagline = "Babysitter"
 
 [extra.visual]
 
-background = "images/background.jpg"
+background = "images/bear.jpg"
 position = "center center"
 
 [extra.lists]
 
 connect = [
-    { url = "/blog", text="Blog", new_tab = true },
-    { url = "#", text="Email", new_tab = false },
-    { url = "#", text="Newsletter", new_tab = false },
+    { url = "mailto:lily.vankers@gmail.com", text="Mail", new_tab = true },
+    {url = "tel:+32488333917", text = "Telefoon: +32 488 33 39 17"},
 ]
 
-social = [
-    {url = "https://t.me/zwitterio", text = "Telegram"},
-    {url = "https://twitter.com/gicrisf", text = "Twitter"},
-    {url = "https://github.com/gicrisf", text = "Github"},
-]
 
 # network = []
 
